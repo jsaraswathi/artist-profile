@@ -1,0 +1,60 @@
+.art-img{
+  width: 107px !important;
+  height: 107px !important;
+  img{
+    width: 107px !important;
+    height: 107px !important;
+    object-fit: cover;
+  }
+}
+.social-items {
+  justify-content: space-between;
+}
+.artist-details .book-btn {
+  background-color: #e6ad40;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid #e6ad40;
+  }
+}
+.art-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+.art-profession {
+  font-size: 14px;
+}
+.artist-row {
+  gap: 1rem;
+  flex-wrap: wrap;
+  .col-md-4 {
+    margin-bottom: 1rem;
+    width: 30%;
+    margin-left: 25px;
+  }
+  .warning-txt {
+    img {
+      width: 80px;
+    }
+    h1 {
+      color: #ffffff66 !important;
+      font-weight: 700 !important;
+    }
+  }
+}
+.spinner-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}

@@ -1,0 +1,27 @@
+.bg-header {
+  background: linear-gradient(
+    to right,
+    rgba(243, 192, 96, 1),
+    rgba(198, 137, 47, 1)
+  );
+}
+.search-icon {
+  min-width: 300px;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+}
+.logo-title {
+  font-size: 28px !important;
+}
+.artist-cat {
+  button {
+    background-color: #fff !important;
+    border-radius: 2px !important;
+    font-size: 14px;
+
+    &.active{
+        border-bottom: 3px solid #f2c05f !important;
+    }
+  }
+
+}
